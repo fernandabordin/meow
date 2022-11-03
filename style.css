@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    height: 100vh;
+    background: rgb(197,77,102);
+    background: linear-gradient(45deg, rgba(197,77,102,1) 0%, rgba(245,249,250,1) 100%) no-repeat;
+    overflow: hidden;
+}
+
+body > h1 {
+    font-family: 'Indie Flower', "cursive";
+    font-size: 3em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(197,77,102);
+}
+
+img {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    left: 50vw;
+    top: 45vh;
+    transform: translate(-50%, -50%)
+}
+
+.btn-sim {
+    display: flex;
+    position: absolute;
+    margin: 0;              
+    top: 80%;   
+    left: 42vw; 
+    font-family: 'Indie Flower', "cursive";
+    font-size: 1.2em;
+    padding: 1rem 1rem;
+    margin: 0;
+    border-radius: 1.5rem;
+    border-style: dashed;
+    cursor: pointer;         
+    transform: translate(-50%, -50%)
+ }
+
+ .btn-sim:hover {
+    color: rgb(197,77,102);
+ }
+ 
+ .btn-nao {
+    display: flex;
+    position: absolute;
+    margin: 0;              
+    top: 80vh; 
+    left: 56vw;
+    font-family: 'Indie Flower', "cursive";
+    font-size: 1.2em;
+    padding: 1rem 1rem;
+    margin: 0;
+    border-radius: 1.5rem;
+    border-style: dashed;
+    cursor: pointer;       
+    transform: translate(0, -50%)
+}
+
+.btn-nao:hover {
+    color: rgb(197,77,102);
+ }
